@@ -1,0 +1,222 @@
+<html><head>
+  <title>Vue-uwu.js - The Cutest JavaScript Framework</title>
+  <meta name="description" content="Discover Vue-uwu.js, the kawaii JavaScript framework that makes web development adorable and efficient!">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #FFF0F5;
+      color: #FF69B4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      background-color: #FFB6C1;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #FF1493;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+    }
+    .hero {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .feature {
+      background-color: #FFC0CB;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 20px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .feature h3 {
+      color: #C71585;
+    }
+    .cta {
+      text-align: center;
+      margin: 50px 0;
+    }
+    .button {
+      background-color: #FF69B4;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 25px;
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #FF1493;
+    }
+    footer {
+      background-color: #FFB6C1;
+      color: #C71585;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    @keyframes sparkle {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.2); opacity: 0.7; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    .sparkle {
+      display: inline-block;
+      animation: sparkle 1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><span class="sparkle">✨</span> Vue-uwu.js <span class="sparkle">✨</span></h1>
+    <p>The Cutest JavaScript Framework Ever!</p>
+    <nav>
+      <a href="/features">Features</a>
+      <a href="/docs">Docs</a>
+      <a href="/community">Community</a>
+      <a href="https://github.com/HaroldPetersInskipp/vue-uwu/">GitHub</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h2>Make Your Web Apps Kawaii~! <span class="sparkle">🌸</span></h2>
+      <p>Vue-uwu.js combines the power of Vue.js with the cuteness of UwU culture!</p>
+      <a href="/get-started" class="button">Get Started</a>
+    </section>
+
+    <section id="features" class="features">
+      <div class="feature">
+        <h3>Adorable Syntax <span class="sparkle">🐱</span></h3>
+        <p>Write your code in the cutest way possible with our UwU-inspired syntax!</p>
+      </div>
+      <div class="feature">
+        <h3>Kawaii Components <span class="sparkle">🎀</span></h3>
+        <p>Create reusable, ultra-cute components to make your apps irresistible!</p>
+      </div>
+      <div class="feature">
+        <h3>OwO Reactivity <span class="sparkle">👀</span></h3>
+        <p>Experience lightning-fast reactivity that'll make your app go "OwO"!</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to make your web development experience sugoi?</h2>
+      <a href="/docs" class="button">Read the Docs</a>
+    </section>
+
+    <section id="code-example">
+      <h2>Code Example</h2>
+      <pre><code>
+// HelloKawaii.uwu
+&lt;template&gt;
+  &lt;div class="kawaii-container"&gt;
+    &lt;h1&gt;{{ message }}&lt;/h1&gt;
+    &lt;button @click="nuzzle"&gt;Nuzzle me! &lt;span class="sparkle"&gt;🐾&lt;/span&gt;&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+expowt default {
+  data() {
+    wetuwn {
+      message: 'Hewwo Wowld! UwU'
+    }
+  },
+  methods: {
+    nuzzle() {
+      this.message = 'Nuzzle nuzzle~ OwO'
+    }
+  }
+}
+&lt;/script&gt;
+
+&lt;style scoped&gt;
+.kawaii-container {
+  background-color: #FFC0CB;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  background-color: #FF69B4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+&lt;/style&gt;
+      </code></pre>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Vue-uwu.js | Made with <span class="sparkle">❤️</span> by <a href="https://github.com/HaroldPetersInskipp" >the kawaii dev community</a></p>
+  </footer>
+
+  <script>
+    // Simple implementation to demonstrate Vue-uwu.js functionality
+    const app = {
+      data() {
+        return {
+          pageTitle: 'Vue-uwu.js - The Cutest JavaScript Framework',
+          navItems: ['Features', 'Docs', 'Community', 'GitHub'],
+          features: [
+            { title: 'Adorable Syntax', icon: '🐱', description: 'Write your code in the cutest way possible with our UwU-inspired syntax!' },
+            { title: 'Kawaii Components', icon: '🎀', description: 'Create reusable, ultra-cute components to make your apps irresistible!' },
+            { title: 'OwO Reactivity', icon: '👀', description: "Experience lightning-fast reactivity that'll make your app go \"OwO\"!" }
+          ]
+        }
+      },
+      mounted() {
+        console.log('Vue-uwu.js app is wunning! UwU');
+      },
+      methods: {
+        nuzzle() {
+          alert('Nuzzle nuzzle~ OwO');
+        }
+      }
+    };
+
+    // Mount the app (in a real Vue-uwu.js implementation, this would be handled by the framework)
+    const mountApp = () => {
+      document.title = app.data().pageTitle;
+      document.querySelectorAll('.feature').forEach((el, index) => {
+        const feature = app.data().features[index];
+        el.querySelector('h3').innerHTML = `${feature.title} <span class="sparkle">${feature.icon}</span>`;
+        el.querySelector('p').textContent = feature.description;
+      });
+      document.querySelectorAll('button').forEach(button => {
+        button.addEventListener('click', app.methods.nuzzle);
+      });
+    };
+
+    document.addEventListener('DOMContentLoaded', mountApp);
+  </script>
+</body></html>
