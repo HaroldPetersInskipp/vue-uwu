@@ -4,14 +4,16 @@ Visit our [homepage](http://majestic-person.surge.sh/)
 
 Welcome to **Vue-uwu.js**, the kawaii JavaScript framework that combines the power of Vue.js with the cuteness of UwU culture! This framework is designed to make web development both adorable and efficient.
 
+Screenshots
+------------
+<img alt="screenshot-1" width="1024px" src="screenshot-1.png" />
+
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Quick Start](#quick-start)
 - [Code Example](#code-example)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
